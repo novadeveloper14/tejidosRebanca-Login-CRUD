@@ -1,0 +1,181 @@
+html{
+	overflow-y: hidden;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url();
+	font-family: 'Poppins', sans-serif;
+	background: url(ima/fondo.png);
+	background-size: 100%;
+	height: 100%;
+}
+
+#imagen{
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+
+#imagen img{
+	filter: invert(20);
+	width: 30%;
+}
+
+#contenedor{
+	border-radius: 20px;
+	margin: 5px auto;
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	width: 50%;
+	background: rgba(0, 0, 0, 0.65);
+}
+
+#preguntas{
+	margin-top: 5px;
+}
+
+.preg{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.preg input::placeholder{
+	color: white;
+	font-size: 14px;
+}
+
+.btn{
+	border-radius: 30px;
+	padding-top: 20px;
+	width: 49.5%;
+	height: 60px;
+	display: flex;
+	display: inline-block;
+	flex-direction: row;
+}
+
+.btn input{
+	cursor: pointer;
+	border-radius: 15px;
+	border: 0;
+	color: white;
+	font-size: 1.2vw;
+	background: rgba(0, 0, 0, .3);
+	width: 50%;
+	height: 40px;
+	transition: 0.2s;
+}
+
+.btn input:hover{
+	background: rgba(0, 0, 0, .4);
+	border: 1px solid white;
+}
+
+#botones{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+#submit{ 
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+#restablecer{
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 10px;
+}
+
+#restablecer input{
+	text-align: center;
+}
+
+.preg input{
+	border: 0px;
+	color: white;
+	background: rgba(0, 0, 0, .25);
+	width: 60%;
+	height: 35px;
+	transition: 0.2s;
+	text-indent:20px
+}
+
+.preg input:hover{
+	background: rgba(0, 0, 0, .4);
+}
+
+.preg input:focus{
+	margin-left: 10px;
+	background: rgba(0, 0, 0, .4);
+	border: 0px;
+	outline: 0px;
+	border-bottom: 2px solid white;
+}
+
+#forget-password{
+	margin-top: 30px;
+	display: flex;
+	text-align: left;
+	font-size: 14px;
+	width: 100%;
+}
+
+#forget-password a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	margin: auto;
+	width: 60%;
+}
+
+#forget-password a:hover{
+	text-decoration: underline;
+}
+
+form h3{
+	width: 60%;
+	margin: 30px auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+ 	padding: 10px;
+ 	background-color: rgb(187, 35, 35);
+ 	font-size: 13px;
+	color: white;
+
+}
+
+h4{
+    font-size: 3vh;
+    width: 40%;
+    background-color:rgb(163, 19, 19);
+    color: #fff;
+    padding: 20px 10px;
+    margin: 20px auto auto auto;
+    border-radius: 20px;
+	text-align: center;
+}
+
+h1{
+    font-size: 5vh;
+	margin: 100px auto auto auto;
+	width: 200px;
+	text-align: center;
+}
+
+#img{
+    width: 30px;
+    height: 30px;
+	margin: 10px auto auto auto;
+	text-align: center;
+}
